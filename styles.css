@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+.contenedor{
+    margin: 200px auto;
+    width:900px;
+    height: 900px;
+    background-color: black;
+    border:1px solid gray ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contenido{
+    width: 95%;
+    height: 95%;
+    border-radius: 50%;
+    border:10px solid white;
+   position: relative;
+
+}
+/* .lucida{
+    font-size:200px ;
+    font-family: monospace, 'Times New Roman', Times, serif;
+} */
+.roboto{
+    font-size:4500% ;
+    font-family: 'Cambay', sans-serif;
+   position: absolute;
+   left: 14%;
+   bottom:-35%;
+
+    color: white;
+}
+/* .monserrat{
+    font-size:200px ;
+    font-family: 'Montserrat';
+    color: aqua;
+} */
+/* .Quicksand{
+    font-size:200px ;
+    font-family: 'Quicksand';
+} */
